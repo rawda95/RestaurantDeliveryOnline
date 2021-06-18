@@ -1,0 +1,14 @@
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\bin\Debug\netcoreapp3.1\Repositories.deps.json
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\bin\Debug\netcoreapp3.1\Repositories.dll
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\bin\Debug\netcoreapp3.1\Repositories.pdb
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\obj\Debug\netcoreapp3.1\Repositories.csprojAssemblyReference.cache
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfoInputs.cache
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfo.cs
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CopyComplete
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\obj\Debug\netcoreapp3.1\Repositories.dll
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Repositories\obj\Debug\netcoreapp3.1\Repositories.pdb

@@ -1,0 +1,9 @@
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
