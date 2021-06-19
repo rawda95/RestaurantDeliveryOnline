@@ -1,4 +1,5 @@
 ﻿using Core.DTO;
+using Core.ViewModel;
 using Repositories.Repositories;
 using System.Collections.Generic;
 
@@ -7,6 +8,7 @@ namespace Services.Services
     public class HomeServices : IHomeServices
     {
         private readonly ICityRepository cityRepository;
+
         public HomeServices(ICityRepository cityRepository)
         {
             this.cityRepository = cityRepository;
@@ -16,5 +18,6 @@ namespace Services.Services
         {
             return this.cityRepository.GetCities();
         }
+       
     }
 }

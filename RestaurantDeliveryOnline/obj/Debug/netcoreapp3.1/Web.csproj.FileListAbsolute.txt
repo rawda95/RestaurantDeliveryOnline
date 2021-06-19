@@ -159,3 +159,12 @@ C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline\b
 C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Restaurant\SearchRestaurant.cshtml.g.cs
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Restaurant\RestaurantDetails.cshtml.g.cs
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Restaurant\_RestaurantProducts.cshtml.g.cs
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Restaurant\_UserData.cshtml.g.cs
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline\obj\Debug\netcoreapp3.1\Razor\Views\Restaurant\_CartData.cshtml.g.cs
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\RoOoOz\source\repos\RestaurantDeliveryOnline\RestaurantDeliveryOnline\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

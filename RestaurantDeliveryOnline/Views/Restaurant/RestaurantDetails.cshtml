@@ -1,0 +1,74 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model Core.DTO.RestaurantDTO
+@using System.Text.Json;
+<div class="row">
+    <div class="col-md-12">
+        <div class="media">
+            <img class="mr-3" src="/img/food1.jfif" alt="Generic placeholder image">
+            <div class="media-body">
+                <div>
+                    <h5 class="mt-0">@Model.Name</h5>
+                </div>
+                <p class="MenuDesc">
+                    @Model.Description
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+@if (Model.ProductList.Count != 0)
+{
+    <div class="menuPage">
+        <div class="container">
+            <div id="Step1">
+                @await Html.PartialAsync("_RestaurantProducts", Model)
+            </div>
+            <div id="Step2" style="display:none">
+                @await Html.PartialAsync("_UserData")
+            </div>
+            <div id="Step3" style="display:none">
+                @await Html.PartialAsync("_CartData")
+            </div>
+            <div class="mt-4" style="position: relative">
+                <button class="BackBtn disabled" disabled>Back</button>
+
+
+                <button class="NextBtn" id="NextBtn">Next</button>
+                <button class="NextBtn" id="CheckOutBtn" style="display:none">CheckOut</button>
+
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="menuPage">
+        <div class="container">
+            No Product
+        </div>
+    </div>
+}
+@{
+    var options = new JsonSerializerOptions()
+    {
+        MaxDepth = 0,
+        IgnoreNullValues = true,
+        IgnoreReadOnlyProperties = true
+    };
+
+}
+@section Scripts{
+
+    <script src="~/js/RestaurantDetails.js"></script>
+    <script>
+            var ProducrtItems = ConvertViewBagToList('@Html.Raw(Json.Serialize(Model.ProductList))');
+
+            var SelectedProducrtItems = [];
+            var User = {}
+            var StepNumber = 1;
+    </script>
+}

@@ -5,7 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\fonts\iconFonts3\flaticon.scss" />
+    <None Include="wwwroot\fonts\iconFonts3\flaticon.svg" />
+    <None Include="wwwroot\fonts\iconFonts3\flaticon.woff2" />
+    <None Include="wwwroot\js\select\form-select2.min.js" />
+    <None Include="wwwroot\js\select\select2.full.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.16" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.7">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

@@ -24,7 +24,10 @@ namespace RestaurantDeliveryOnline
         {
             services.AddAutoMapper(typeof(Startup));
 
-            services.AddControllersWithViews();
+            services.AddControllersWithViews().AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+            ); 
+            
             services.AddDbContext<RestaurantContext>(options =>
                 options
                 .UseSqlServer(Configuration.GetConnectionString("RestaurantContextConnection")));
@@ -36,6 +39,12 @@ namespace RestaurantDeliveryOnline
             services.AddTransient<IHomeServices, HomeServices>();
 
 
+            services.AddTransient<IRestaurantRepository, RestaurantRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IOrderRepository, OrderRepository>();
+            services.AddTransient<IorderItemsRepository, orderItemsRepository>();
+
+            services.AddTransient<IRestaurantServices, RestaurantServices>();
         }
 
 

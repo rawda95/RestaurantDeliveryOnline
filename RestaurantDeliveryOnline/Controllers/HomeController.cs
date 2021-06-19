@@ -16,8 +16,12 @@ namespace RestaurantDeliveryOnline.Controllers
         }
 
         public IActionResult Index()
+
         {
+
             ViewBag.Cities = this.homeServices.GetCities();
+
+
             return View();
         }
 

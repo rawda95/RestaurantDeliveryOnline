@@ -1,64 +1,38 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Simple House Template</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />
-    <link href="/css/site.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurant</title>
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/select/select2.min.css" />
+    <link rel="stylesheet" href="~/css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="~/fonts/iconFonts3/flaticon.css" />
+    <link rel="stylesheet" href="~/css/spinner.css" />
+    <link rel="stylesheet" href="/fonts/fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="~/fonts/iconFonts3/flaticon.css" />
+
+    @RenderSection("Styles", required: false)
+
 </head>
-
 <body>
-
-    <div class="container">
-        <!-- Top box -->
-        <!-- Logo & Site Name -->
-        <div class="placeholder">
-            <div class="parallax-window" data-parallax="scroll" data-image-src="/images/simple-house-01.jpg">
-                <div class="tm-header">
-                    <div class="row tm-header-inner">
-                        <div class="col-md-6 col-12">
-                            <img src="/images/simple-house-logo.png" alt="Logo" class="tm-site-logo" />
-                            <div class="tm-site-text-box">
-                                <h1 class="tm-site-title">Restaurant House</h1>
-                                <h6 class="tm-site-description">new restaurant </h6>
-                            </div>
-                        </div>
-                        <nav class="col-md-6 col-12 tm-nav">
-                            <ul class="tm-nav-ul">
-                                <li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
-                              
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-
-    <footer class="tm-footer text-center">
-        <p>
-            Copyright &copy; 2021 Rawda 
-        </p>
-    </footer>
+    <div class="overlay-spinner">
+        <div class="loader">Loading...</div>
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            // Handle click on paging links
-            $('.tm-paging-link').click(function (e) {
-                e.preventDefault();
 
-                var page = $(this).text().toLowerCase();
-                $('.tm-gallery-page').addClass('hidden');
-                $('#tm-gallery-page-' + page).removeClass('hidden');
-                $('.tm-paging-link').removeClass('active');
-                $(this).addClass("active");
-            });
-        });
-    </script>
+    @RenderBody()
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/js/popper.js"></script>
+    <script src="~/js/select/select2.full.min.js"></script>
+    <script src="~/js/select/form-select2.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/sweetalert/sweetalert.min.js"></script>
+
+
+
+    @RenderSection("Scripts", required: false)
+
 </body>
 </html>

@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+select2-container--classic.select2-container--open .select2-selection--single, .select2-container--default.select2-container--open .select2-selection--single {
+    border-color: #18922c !important;
+    outline: 0;
+}
+
+.select2-results__option[aria-selected] {
+    border-bottom: 1px solid #f3f3f3;
+    cursor: pointer;
+    color: #475f7b;
+    font-weight: 500;
+    padding-left: 17px;
+    font-size: 0.85rem !important;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #b4c1d0;
+    color: #475f7b;
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #ced4da !important;
+    padding: .35rem .8rem;
+    border-radius: 5px !important;
+    font-size: 0.82rem !important;
+    background: #fff !important;
+    height: 38px;
+    box-shadow: 0 0px 0px 0 rgba(32, 33, 36, .12);
+}
+
+.select2-container {
+    border-radius: 1.5rem !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #92a0b1;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    top: 0px;
+    right: 1px;
+    width: 37px;
+    background-color: #a3afbd;
+    border-radius: 0px !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    background: linear-gradient(to top, #5a8dee57, #79a4f554);
+    /*background: linear-gradient(to top, #5a8dee66, #79a4f51c)*/
+    border: 1px solid #ced4da !important;
+}
+
+    .select2-container--default .select2-selection--single .select2-selection__arrow b {
+        border-color: #f9f9f9 transparent transparent transparent;
+        border-style: solid;
+        border-width: 6px 6px 0px 6px;
+        height: 0;
+        left: 50%;
+        margin-left: -6px;
+        margin-top: -2px;
+        position: absolute;
+        top: 46%;
+        width: 0;
+        transform: rotate(0deg) !important;
+    }
+
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #fff transparent;
+    border-width: 0 6px 7px 6px;
+    top: 0px;
+}
+
+.form-control {
+    box-shadow: 0 0px 0px 0 rgba(32, 33, 36, .12);
+    border: 1px solid #ced4da !important;
+}
+
+    .form-control:focus {
+        border-color: #adb5bd;
+        box-shadow: 0 0 0 0.2rem #adb5bd1c;
+        border-color: #b4c1d0 !important;
+    }
+
+.select2 select2-container select2-container--default select2-container--focus {
+    box-shadow: 0 0px 0px 0 rgba(32, 33, 36, .12) !important;
+}
+
+.select2-container {
+    box-shadow: 0 0px 0px 0 rgba(32, 33, 36, .12) !important;
+}
+
+select2-container--classic.select2-container--open .select2-selection--single, .select2-container--default.select2-container--open .select2-selection--single {
+    border-color: #b4c1d0 !important;
+    outline: 0;
+}
+
+.form-control:focus, .select2-container:focus, .select2-container--default .select2-selection--single:focus {
+    border-color: #b4c1d0 !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    background: transparent;
+    border:0 !important;
+}
+    .select2-container--default .select2-selection--single .select2-selection__arrow b {
+        border-color: #b4c1d0 transparent transparent transparent;  
+        
+    }
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    border-color: transparent transparent #b4c1d0 transparent;
+    top: 0px;
+}
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered {       
+        color: #74819a !important;
+    }
+.select2-container--default .select2-selection--single {
+    padding: 0.15rem .8rem 0.35rem;
+}
+    .select2-container--default .select2-selection--single .select2-selection__arrow {
+        height: 0px;
+        top: 17px;
+    }
+/*
+.select2-container--classic .select2-selection--single, .select2-container--default .select2-selection--single {
+    min-height: 34px !important;
+}
+.select2-container--default .select2-selection--single {
+    height: 34px;
+}
+*/
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #dfe3e7;
+    color: #464d5c;
+}
+.select2-results__option[aria-selected] {
+    color: #565f71;
+}
+/*
+.select2-container * {
+    border-radius: 0px !important;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border-radius: 5px !important;
+}
+*/
+.header{
+    background-image: url(../img/bg1.jfif);
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    color: #fff;
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    top: 30vh;
+    font-size: 3.5vw;
+}
+.SearchDiv{
+    background-color: #FDC80B;
+    padding: 13px 13px 8px;
+    position: relative;
+    top: 40vh;
+    margin: 0px 13%;
+}
+.SearchBTN{
+    background-color: #F8212A;
+    color: #fff;
+    padding: 6px 55px;
+    border: 0;
+    border-radius: 5px;
+}
+.SearchBTN:hover{
+    background-color: #ea1821;
+    cursor: pointer;
+}
+.MenuCardsSection{
+    position: relative;
+}
+.MenuCards{
+    position: absolute;
+    top: -95px;
+    background-color: #fff;
+    padding: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 100%;
+}
+.card {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.card-img-top{
+        height: 280px;
+}
+.MenuLink{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+.MenuLink:hover{
+    text-decoration: none;
+    color: #FFB81F;
+    border-bottom: 2px solid #FFB81F;
+}
+button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+p{
+    color: #6c757d; 
+}
+.AddMrBottom{
+    margin-bottom: 5px
+}
+
+
+.menuPage{
+    padding: 90px 0px;
+}
+.menuPage .media img{
+    width: 41%;
+    height: 196px;
+}
+.media {
+    background-color: #F8F8F8;
+    box-shadow: 3px 3px 10px #efefef;
+}
+.media:hover{
+   box-shadow: 3px 3px 10px #e4dfdf;
+}
+.media-body>div{
+    margin-top: 20px;
+
+}
+.media-body h5::after{
+    content: "";
+    display: block;
+    position: relative;
+    height: 3px;
+    width: 50px;
+    background-color: #fbaf16;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+.triangleBottomright {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #fbaf16;
+    border-left: 100px solid transparent;
+    position: absolute;
+    right: 15px;
+    top: 76px;
+}
+.MenuDesc {
+    position: relative;
+    z-index: 1;
+}
+.price{
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    top: 55px;
+    right: 45px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.pagination li{
+    margin: 5px;
+}
+.pagination li .page-link {
+    border-radius: 0px !important;
+    padding: 4px 15px;
+    border: 2px solid #fbaf16;
+    color: #fbaf16
+}
+.NextBtn{
+    background-color: #fbaf16;
+    padding: 6px 20px;
+    position: absolute;
+    top: 6px;
+    right: 0;
+    border: 1px solid #c78b11; 
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+.BackBtn {
+    background-color: #fbaf16;
+    padding: 6px 20px;
+    position: absolute;
+    border: 1px solid #c78b11;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+.BackBtn:hover {
+    background-color: #f5a912;
+    cursor: pointer;
+}
+.NextBtn:hover {
+    background-color: #f5a912;
+    cursor: pointer;
+}
+.formPage{
+    padding: 90px 0px;
+}
+.rightDiv{
+    border: 2px solid #FEAD1A;
+    padding: 20px;
+    box-shadow: 3px 3px 10px #e4dfdf;
+}
+.PriceDiv{
+        background-color: #fbaf16;
+    padding: 6px 20px;
+    position: absolute;
+    top: 26px;
+    right: 35px;
+    border: 1px solid #c78b11;
+    font-weight: 600;
+}
+.input-group-text {
+    background-color: #373534;
+    border: 1px solid #373534;
+    border-radius: 0.25rem;
+    color: #fff
+}
+.LeftDiv input[type="text"]{
+    border: 1px solid #000 !important;
+    border-radius: 0px;
+}
+.BTN{
+     background-color: #fbaf16;
+    padding: 6px 20px;
+    border: 1px solid #c78b11;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+.BTN:hover{
+    background-color: #f5a912;
+    cursor: pointer;
+}
+.ConfirmBtn{
+    float: right;
+}
+
+.LeftDiv h2{
+   font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    font-weight: 500;
+}
+.rightDiv h3{
+   font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 500;
+}
+.rightDiv h3 span{
+   color:#FBAF16;
+}
+.rightDiv p{
+    text-transform: uppercase;
+}
+.DataPage{
+    padding: 30px 0px;
+}
+.DataPage h2::after{
+    content: "";
+    display: block;
+    position: relative;
+    height: 3px;
+    width: 50px;
+    background-color: #fbaf16;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+.DataText>div{
+    display: inline-block
+}
+.DataText i{
+        position: relative;
+    top: -29px;
+    color: #fbaf16;
+    margin-right: 10px;
+}
+.DataText h6{
+    font-size: 18px;
+    font-weight: bold;
+}
+.TableImg{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.TableImg img{
+    width: 100%;
+    border-radius: 50%;
+}
+.Datatable .input-group > .form-control,.Datatable  .input-group > .custom-select,.Datatable  .input-group > .custom-file {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 0px;
+    margin-bottom: 0;
+}
+.Datatable td{
+    vertical-align: middle;
+    font-weight: 500;
+}
+.table thead th {
+    font-weight: 400;
+}
+.DeleteProduct{
+    color: #fbaf16;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.DeleteProduct:hover{
+    color: red;
+    text-decoration: none;
+}
+.CheckOutDiv{
+        border: 1px solid #dee2e6;
+    padding: 20px;
+}
+.CheckOutDiv ul{
+        list-style: none;
+        margin-left: 0px;
+        margin-block-start: 0em;
+    padding-inline-start: 0px;
+}
+.CheckOutDiv ul li{
+       border-bottom: 1px solid #6c757d99;
+    display: block;
+    padding: 10px 0px;
+    font-weight: 600;
+    
+}
+.CheckOutDiv ul li span{
+     float: right;
+    
+}.CheckOutBtn{
+     float: right;
+    color: #fff;
+    padding: 10px 30px;
+}
+.CheckOutDiv h6{
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

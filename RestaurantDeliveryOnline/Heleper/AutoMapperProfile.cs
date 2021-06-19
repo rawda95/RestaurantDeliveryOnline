@@ -10,6 +10,24 @@ namespace Web.Heleper
         {
             CreateMap<CityDTO, City>();
             CreateMap<City, CityDTO>();
+
+            CreateMap<RestaurantDTO, Restaurant>();
+            CreateMap<Restaurant, RestaurantDTO>();
+
+
+            CreateMap<ProductDTO, Product>();
+            CreateMap<Product, ProductDTO>();
+
+
+            CreateMap<User, UserDTO>();
+            CreateMap<UserDTO, User>();
+
+            CreateMap<Order, OrderDTO>();
+            CreateMap<OrderDTO, Order>();
+
+
+            CreateMap<OrderItemDTO, OrderItem>();
+            CreateMap<OrderItem, OrderItemDTO>();
         }
     }
 
